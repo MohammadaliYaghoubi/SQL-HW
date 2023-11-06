@@ -72,7 +72,7 @@ INSERT INTO Tables (capacity)
 VALUES
 (2),(4),(4),(6)
 ;
-INSERT INTO Orders (customer_id,table_id)
+INSERT INTO Orders (customer_id,table_id,order_time)
 VALUES
-(2,4),(1,2)
+(2,4,'2020-02-04 10:30:00'),(1,2,'2020-03-04 16:29:00')
 ;
